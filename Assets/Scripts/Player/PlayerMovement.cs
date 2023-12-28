@@ -4,6 +4,7 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Rendering;
 
+//class 명칭 PlayerMovement 로 수정. cs명칭하고 class 명칭하고 동일해야함.
 public class PlayerMovement : MonoBehaviour
 {
     [Header("config")]
