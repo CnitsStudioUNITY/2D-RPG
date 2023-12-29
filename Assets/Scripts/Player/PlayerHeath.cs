@@ -16,13 +16,13 @@ public class PlayerHeath : MonoBehaviour, IDamageable
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.P)) 
+        if(Input.GetKeyDown(KeyCode.P))
         {
             TakeDamage(1f);
         }
     }
 
-    public void TakeDamage(float amount) 
+    public void TakeDamage(float amount)
     { 
         stats.Health -= amount; 
         if (stats.Health <= 0f)
