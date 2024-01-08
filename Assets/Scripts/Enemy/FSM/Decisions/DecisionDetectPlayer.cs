@@ -15,7 +15,10 @@ public class DecisionDetectPlayer : FSMDecision
         enemy = GetComponent<EnemyBrain>();
     }
 
-    public override bool Decide => DetectPlayer();
+    public override bool Decide()
+    {
+        return DetectPlayer();
+    }
 
     private bool DetectPlayer()
     {

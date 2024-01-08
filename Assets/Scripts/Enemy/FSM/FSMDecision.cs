@@ -2,5 +2,5 @@
 
 public abstract class FSMDecision : MonoBehaviour
     {
-    public abstract bool Decide { get; }
+    public abstract bool Decide();
 }
